@@ -13,7 +13,5 @@ jobs:
 
 
     steps:
-      - name: 'test actions'
-        run: pwd
-      - name: 'print name'
-        run: echo Test
+      - name: 'print folders'
+        run: ls
